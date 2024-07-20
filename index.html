@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=4.0, user-scalable=1">
+    <title>Home - MindHG</title>
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <header>
+        <div class="logo" tabindex="0" onclick="window.location.href='index.html'">
+            <img src="images/mindhg_logo.png" alt="MINDHG Logo">
+            <span>MINDHG</span>
+        </div>
+        <div class="font-adjuster-container">
+            <button id="font-adjuster-button" class="font-adjuster-button">Font</button>
+            <div id="font-adjuster-popup" class="font-adjuster-popup" style="display: none;" tabindex="-1">
+                <div class="font-size-adjusters">
+                    <button id="increase-font">A+</button>
+                    <button id="decrease-font">A-</button>
+                </div>
+                <div class="font-type-adjusters">
+                    <button class="font-type-button" data-font="Arial, sans-serif">Sans</button>
+                    <button class="font-type-button" data-font="Times New Roman, serif">Serif</button>
+                    <button class="font-type-button" data-font="Courier New, monospace">Monospace</button>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="#">Sponsors</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="text-image-container">
+            <div class="text-container">
+                <h1>Mindful Health <br/> Guide</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                </p>
+                <button onclick="window.location.href='news.html'">LEARN MORE</button>
+            </div>
+            <div class="image-container">
+                <img src="images/woman_med.png" alt="person meditating">
+            </div>
+        </section>
+        <section class="partners">
+            <h2>Partners</h2>
+            <div class="partner-list">
+                <div class="partner">Partner 1</div>
+                <div class="partner">Partner 2</div>
+                <div class="partner">Partner 3</div>
+                <div class="partner">Partner 4</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="contact.html">Contact Us</a>
+            <a href="#">Second Link</a>
+            <a href="#">Third Link</a>
+            <a href="#">Fourth Link</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/"><img src="images/facebook-svgrepo-com.svg" alt="Facebook"></a>
+            <a href="https://www.google.com/"><img src="images/google-svgrepo-com.svg" alt="Google"></a>
+            <a href="https://x.com/"><img src="images/twitter-rounded-border-svgrepo-com.svg" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram-svgrepo-com.svg" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2024 Mindful Health Guide</p>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
