@@ -113,8 +113,8 @@ main {
 
 .construction {
     text-align: center;
-    margin: 70px auto; /* Center the section on the page */
-    max-width: 600px; /* Limit the width of the section */
+    margin: 0px auto;
+    max-width: 600px
     /* margin-bottom: 50px; */
 }
 
