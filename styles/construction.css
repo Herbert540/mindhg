@@ -103,84 +103,29 @@ nav ul li a:hover {
     color: #715696;
 }
 
-.links-container {
-    display: flex;
-    align-items: center;
-}
-
 /* Main */
 
 main {
     padding: 2rem;
     margin-left: 10rem;
     margin-right: 10rem;
-    margin-top: 3rem;
 }
 
-.back-button-container {
-    margin: 20px 0;
-    text-align: left;
-}
-
-.back-button {
-    background-color: #746ab0;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    cursor: pointer;
+.construction {
     text-align: center;
-    display: inline-block;
-    transition: background-color 0.3s ease;
+    margin: 70px auto; /* Center the section on the page */
+    max-width: 600px; /* Limit the width of the section */
+    /* margin-bottom: 50px; */
 }
 
-.back-button:hover {
-    background-color: #715696;
-}
-.title-text-container {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
+.construction img.construction-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.title-container {
-    flex: 1;
-    padding-right: 4rem;
-}
-
-.title-container h1 {
-    font-size: 4.0rem;
-    margin-bottom: 1rem;
-    font-weight: 500;
-}
-
-.title-container p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-    color: #616161;
-}
-
-.text-container {
-    flex: 1;
-    padding-right: 3rem;
-}
-
-.learn-more {
-    display: inline-block;
-    margin-top: 1rem;
-    color: #746ab0;
-    text-decoration: none;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.learn-more:hover {
-    color: #715696;
-}
-
+/* Footer */
 footer {
     text-align: center;
     padding: 1rem 0;
@@ -197,7 +142,8 @@ footer {
     font-weight: bold;
 }
 
-.footer-links a:hover {
+.footer-links a:hover,
+.footer-links a.active {
     color: #715696;
 }
 
@@ -214,6 +160,7 @@ footer {
     width: 24px;
 }
 
+
 /* Responsive Design */
 
 /* Mobile devices (XXS-S) */
@@ -223,33 +170,10 @@ footer {
         align-items: flex-start;
     }
 
-    .links-container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
     nav ul {
         flex-direction: column;
         gap: 1rem;
         margin-top: 1rem;
-    }
-
-    main {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
-    .title-container h1 {
-        font-size: 2rem;
-    }
-
-    .title-container p,
-    .text-container p {
-        font-size: 1rem;
-    }
-
-    .title-container .learn-more {
-        font-size: 0.9rem;
     }
 }
 
@@ -259,19 +183,6 @@ footer {
         margin-left: 2rem;
         margin-right: 2rem;
     }
-
-    .title-container h1 {
-        font-size: 2.2rem;
-    }
-
-    .title-container p,
-    .text-container p {
-        font-size: 1.1rem;
-    }
-
-    .title-container .learn-more {
-        font-size: 1rem;
-    }
 }
 
 /* Laptops and desktops (XL) */
@@ -279,18 +190,5 @@ footer {
     main {
         margin-left: 10rem;
         margin-right: 10rem;
-    }
-
-    .title-container h1 {
-        font-size: 2.5rem;
-    }
-
-    .title-container p,
-    .text-container p {
-        font-size: 1.2rem;
-    }
-
-    .title-container .learn-more {
-        font-size: 1rem;
     }
 }
