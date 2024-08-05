@@ -113,16 +113,10 @@ main {
 
 .construction {
     text-align: center;
-    margin: 0px auto;
-    max-width: 600px
-    /* margin-bottom: 50px; */
 }
 
-.construction img.construction-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+.construction-image {
+    max-width: 600px;
 }
 
 /* Footer */
